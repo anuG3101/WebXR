@@ -46,9 +46,9 @@ function FloatingPrompt() {
       <Defaults>
         <Root
           anchorY="bottom"
-          width={500}
-          height={200}
-          pixelSize={0.005}
+          width={100}
+          height={50}
+          pixelSize={0.001}
           flexDirection="column"
         >
           <Container
@@ -64,7 +64,7 @@ function FloatingPrompt() {
             borderWidth={0.01}
             borderColor="#555"
           >
-            <Text color="#fff" fontSize={30} fontWeight="bold">
+            <Text color="#fff" fontSize={10} fontWeight="bold">
               Ask Something...
             </Text>
             <Button
