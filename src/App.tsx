@@ -48,7 +48,7 @@ function FloatingPrompt() {
           anchorY="bottom"
           width={100}
           height={50}
-          pixelSize={0.001}
+          pixelSize={0.005}
           flexDirection="column"
         >
           <Container
